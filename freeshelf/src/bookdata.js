@@ -2,6 +2,7 @@ const bookdata = [
   {
     "title": "You Don't Know JS Yet: Getting Started",
     "author": "Kyle Simpson",
+    minimized: true, 
     "url": "https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/get-started",
     "shortDescription": "If you're just getting into programming and/or JavaScript,this book will briefly explore what you need to get up and going.",
     "coverImageUrl": "https://github.com/getify/You-Dont-Know-JS/raw/2nd-edget-started/images/cover.png",
@@ -12,6 +13,7 @@ const bookdata = [
     {
     "title": "Learning JavaScript Design Patterns",
     "author": "Addy Osmani",
+    minimized: true, 
     "url": "https://addyosmani.com/resources/essentialjsdesignpatterns/book/",
     "shortDescription": "With Learning JavaScript Design Patterns, you’ll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language.",
     "coverImageUrl": "https://addyosmani.com/resources/essentialjsdesignpatterns/cover/cover.jpg",
@@ -22,6 +24,7 @@ const bookdata = [
     {
     "title": "An Introduction to Programming in Go",
     "author": "Caleb Doxsy",
+    minimized: true, 
     "url": "http://www.golang-book.com/books/intro",
     "shortDescription": "This book will teach you how to write computer programs using a programming language designed by Google named Go.",
     "coverImageUrl": "http://www.golang-book.com/public/img/intro/cover.4194045234.png",
@@ -32,6 +35,7 @@ const bookdata = [
     {
     "title": "Learn to Program",
     "author": "Chris Pine",
+    minimized: true, 
     "url": "https://pine.fm/LearnToProgram",
     "shortDescription": "When you program a computer, you have to 'speak' in a language your computer understands: a programming language. ",
     "coverImageUrl": "https://pine.fm/images/LTP2_cover.jpg",
@@ -42,6 +46,7 @@ const bookdata = [
     {
     "title": "Clojure for the Brave and True",
     "author": "Daniel Higgenbotham",
+    minimized: true, 
     "url": "https://www.braveclojure.com/clojure-for-the-brave-and-true/",
     "shortDescription": "In Clojure for the Brave and True, you'll learn to wield this awesome language to its fullest!",
     "coverImageUrl": "http://nostarch.com/sites/default/files/styles/uc_product/public/clojure_cover-front_final.png",
@@ -52,6 +57,7 @@ const bookdata = [
     {
     "title": "Joy of Elixir",
     "author": "Ryan Bigg",
+    minimized: true, 
     "url": "https://joyofelixir.com/toc.html",
     "shortDescription": "Joy of Elixir is a gentle introduction to programming, aimed at people who already know some things about computers, but who have little-to-no programming experience.",
     "coverImageUrl": "https://joyofelixir.com/images/small-cover.png",
@@ -62,6 +68,7 @@ const bookdata = [
     {
     "title": "Building Skills in Object-Oriented Design",
     "author": "Steven F. Lott",
+    minimized: true, 
     "url": "https://buildingskills.itmaybeahack.com/oodesign.html",
     "shortDescription": "The coffee-shop reason for reading this book is to provide the beginning designer with a sequence of interesting and moderately complex exercises in OO design.",
     "coverImageUrl": "https://buildingskills.itmaybeahack.com/_images/Cover3x4.jpg",
@@ -72,6 +79,7 @@ const bookdata = [
     {
     "title": "Structure and Interpretation of Computer Programs",
     "author": "Harold Abelson, Gerald Jay Sussman, and Julie Sussman",
+    minimized: true, 
     "url": "https://mitpress.mit.edu/sicp/",
     "shortDescription": "Wizard Book n. Hal Abelson's, Jerry Sussman's and Julie Sussman's Structure and Interpretation of Computer Programs (MIT Press, 1984; ISBN 0-262-01077-1), an excellent computer science text used in introductory courses at MIT. So called because of the wizard on the jacket. One of the bibles of the LISP/Scheme world. Also, less commonly, known as the Purple Book.",
     "coverImageUrl": "https://ieeexplore.ieee.org/ebooks/6276830/6276830.jpg",
