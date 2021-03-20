@@ -4,7 +4,18 @@ import bookdata from './bookdata'
 
 
 function App() {
-  const [newbookdata] = useState(bookdata)
+  const [newbookdata, setNewbookdata] = useState(bookdata)
+
+  const handleInformation = (title, minimized) => {
+    const secondBookdata = newbookdata.map((book) => {
+      if (book.title === title) {
+        return { ...book, minimized }
+      }
+      return book
+    })
+    setNewbookdata(secondBookdata)
+  }
+  
   return (
     <div>
       <h1>Some Frontend Books</ h1>
@@ -16,21 +27,26 @@ function App() {
         coverImageUrl={book.coverImageUrl} 
         publisher={book.publisher} 
         publicationDate={book.publicationDate} 
-        detailedDescription={book.detailedDescription} 
+        detailedDescription={book.detailedDescription}
+        handleInformation={handleInformation}
         key={idx}/>
       })}
     </div>
   )
 }
 
+
+
 const Book = (props) => {
-  const {title, author, minimized, shortDescription, coverImageUrl, publisher, publicationDate, detailedDescription } = props
+  const {title, author, minimized, shortDescription, coverImageUrl, publisher, publicationDate, detailedDescription, handleInformation } = props
   return (
   <div className={minimized ? 'book book--minimized' : 'book'}>
     <h2>{title}</h2>
     <h3>{author}</h3>
     <p>{shortDescription}</p>
     <img src={coverImageUrl}></img>
+    <button onClick={() => handleInformation(title, !minimized)}>
+      {minimized ? 'More Information' : 'Less Information'}</button>
     <p>{publisher}</p>
     <p>{publicationDate}</p>
     <p>{detailedDescription}</p>
