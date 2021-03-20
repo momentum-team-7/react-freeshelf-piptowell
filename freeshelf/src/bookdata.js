@@ -1,5 +1,3 @@
-import React from 'react'
-
 const bookdata = [
   {
     "title": "You Don't Know JS Yet: Getting Started",
