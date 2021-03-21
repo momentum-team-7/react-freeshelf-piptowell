@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import bookdata from './bookdata'
+import './styles/App.css'
 
 
 
@@ -47,9 +48,11 @@ const Book = (props) => {
     <img src={coverImageUrl}></img>
     <button onClick={() => handleInformation(title, !minimized)}>
       {minimized ? 'More Information' : 'Less Information'}</button>
-    <p>{publisher}</p>
-    <p>{publicationDate}</p>
-    <p>{detailedDescription}</p>
+    <dd>
+      <p>{publisher}</p>
+      <p>{publicationDate}</p>
+      <p>{detailedDescription}</p>
+    </dd>
   </div>
   )
 }
